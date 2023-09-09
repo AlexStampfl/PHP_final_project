@@ -1,10 +1,10 @@
 <?php
 //***MAKE SURE YOU CHANGE YOUR DBNAME, USERNAME & PASSWORD HERE
-//CHECK phpmyadmin that you have yourusename_myguitarshop1 database
+//CHECK phpmyadmin that you have '' database
 //and that it is named like this
-    $dsn = 'mysql:host=prometheus.gtc.edu;dbname=astampfl_HomeGym';
-    $username = 'astampfl';
-    $password = 'GTC$@mple23';
+    $dsn = '';
+    $username = '';
+    $password = '';
 
     try {
         $db = new PDO($dsn, $username, $password);
